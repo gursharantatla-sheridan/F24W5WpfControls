@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F24W5WpfControls", "F24W5WpfControls\F24W5WpfControls.csproj", "{C6B8E317-48F5-4D03-A5B9-A7EA1A0D82AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6B8E317-48F5-4D03-A5B9-A7EA1A0D82AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B8E317-48F5-4D03-A5B9-A7EA1A0D82AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B8E317-48F5-4D03-A5B9-A7EA1A0D82AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B8E317-48F5-4D03-A5B9-A7EA1A0D82AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B20C46C-8E41-4A22-A983-C07377B20543}
+	EndGlobalSection
+EndGlobal
