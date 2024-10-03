@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:F24W5WpfControls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Canvas>
+        <Image Height="133" Canvas.Left="64" Canvas.Top="55" Width="198" Source="/Car.png"/>
 
-    </Grid>
+    </Canvas>
 </Window>
