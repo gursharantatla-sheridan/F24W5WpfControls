@@ -37,5 +37,46 @@ namespace F24W5WpfControls
             if (chkCalgary.IsChecked == true)
                 lblOutput.Content += chkCalgary.Content + "\n";
         }
+
+        private void btnReadRadioButtons_Click(object sender, RoutedEventArgs e)
+        {
+            lblOutput.Content = "";
+
+            if (rdoFemale.IsChecked == true)
+                lblOutput.Content = rdoFemale.Content;
+            else if (rdoMale.IsChecked == true)
+                lblOutput.Content = rdoMale.Content;
+            else if (rdoOther.IsChecked == true)
+                lblOutput.Content = rdoOther.Content;
+            else
+                lblOutput.Content = "Please select your gender";
+        }
+
+        private void rdoFemale_Checked(object sender, RoutedEventArgs e)
+        {
+            lblOutput.Content = rdoFemale.Content;
+        }
+
+        private void rdoMale_Checked(object sender, RoutedEventArgs e)
+        {
+            lblOutput.Content = rdoMale.Content;
+        }
+
+        private void btnReadCombobox_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmbCars.SelectedIndex >= 0)
+                lblOutput.Content = cmbCars.Text;
+            else
+                lblOutput.Content = "Please select a car";
+        }
+
+        private void cmbCars_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cmbCars.SelectedIndex >= 0)
+                //lblOutput.Content = cmbCars.Text;
+                lblOutput.Content = ((ComboBoxItem)cmbCars.SelectedItem).Content;
+            else
+                lblOutput.Content = "Please select a car";
+        }
     }
 }
