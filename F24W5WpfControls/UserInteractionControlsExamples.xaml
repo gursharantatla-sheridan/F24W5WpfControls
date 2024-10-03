@@ -1,0 +1,21 @@
+﻿<Window x:Class="F24W5WpfControls.UserInteractionControlsExamples"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F24W5WpfControls"
+        mc:Ignorable="d"
+        Title="UserInteractionControlsExamples" Height="450" Width="800" FontSize="18" FontWeight="Bold">
+    <Canvas>
+        <GroupBox Height="145" Header="Cities" Width="159" Canvas.Left="24" Canvas.Top="31" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Canvas>
+                <CheckBox x:Name="chkToronto" Content="Toronto" Canvas.Left="10" Canvas.Top="10"/>
+                <CheckBox x:Name="chkVancouver" Content="Vancouver" Canvas.Left="10" Canvas.Top="38"/>
+                <CheckBox x:Name="chkCalgary" Content="Calgary" Canvas.Left="10" Canvas.Top="66"/>
+            </Canvas>
+        </GroupBox>
+        <Button x:Name="btnReadCheckboxes" Content="Read Checkboxes" Canvas.Left="188" Canvas.Top="47" Click="btnReadCheckboxes_Click"/>
+        <Label x:Name="lblOutput" Content="" Canvas.Left="486" Canvas.Top="263" Height="126" Width="277" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFC1FEF7"/>
+
+    </Canvas>
+</Window>
