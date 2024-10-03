@@ -33,6 +33,13 @@
             <ComboBoxItem Content="Ford"/>
         </ComboBox>
         <Button x:Name="btnReadCombobox" Content="Read Combobox" Canvas.Left="250" Canvas.Top="346" Click="btnReadCombobox_Click"/>
+        
+        <ListBox Height="189" Width="152" Canvas.Left="486" Canvas.Top="28">
+            <ListBoxItem Content="Mercury"/>
+            <ListBoxItem Content="Venus"/>
+            <ListBoxItem Content="Earth"/>
+            <ListBoxItem Content="Mars"/>
+        </ListBox>
 
     </Canvas>
 </Window>
